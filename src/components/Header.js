@@ -108,6 +108,7 @@ const Container = styled.div`
   top: 0;
   left: 0;
   right: 0;
+  background:rgba(223, 240, 255, 0.79);
   z-index: 1;
   img {
     cursor: pointer;
@@ -130,7 +131,7 @@ const Selection = styled.div`
   }
 
   a:hover {
-    background-color: rgba(244, 244, 244, 0.65);
+    background-color: rgba(244, 244, 244, 1);
     border-radius: 20px;
   }
 
@@ -149,7 +150,7 @@ const Menu = styled.div`
     margin-right: 10px;
   }
   a:hover {
-    background-color: rgba(244, 244, 244, 0.65);
+    background-color: rgba(244, 244, 244, 1);
     border-radius: 20px;
   }
 
